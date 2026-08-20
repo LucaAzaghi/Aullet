@@ -8,7 +8,7 @@ class AuthViewModel extends ChangeNotifier {
   bool _isLoading = false;
   String? _errorMessage;
 
-  bool _isLoggedIn = false;
+  bool _isLoggedIn = false; 
 
   bool get isLoading => _isLoading;
   String? get errorMessage => _errorMessage;

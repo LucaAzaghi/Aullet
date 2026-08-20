@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
               },
               child: const Text('Accedi'),
             ),
-            TextButton(
+            TextButton( 
               onPressed: () {
                 Navigator.pushReplacementNamed(context, '/signup');
               },

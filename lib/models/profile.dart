@@ -5,7 +5,7 @@ class Profile {
   String? avatarUrl;
 
   Profile({
-    required this.id,
+    required this.id, 
     required this.userId,
     required this.displayName,
     this.avatarUrl,

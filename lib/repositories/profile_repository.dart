@@ -6,7 +6,7 @@ class ProfileRepository {
 
   /// Restituisce il profilo dell'utente, o null se non esiste
   Future<Profile?> fetchProfile(String userId) async {
-    final data = await _client
+    final data = await _client 
         .from('profiles')
         .select()
         .eq('user_id', userId)

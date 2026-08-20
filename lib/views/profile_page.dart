@@ -12,7 +12,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   final _nameCtrl = TextEditingController();
   bool _didScheduleLoad = false;
-
+ 
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();

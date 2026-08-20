@@ -96,7 +96,7 @@ class ProfileViewmodel extends ChangeNotifier {
       await _repo.updateProfile(_profile!);
 
       notifyListeners();
-    } catch (e) {
+    } catch (e) { 
       _error = e.toString();
     } finally {
       _setLoading(false);
